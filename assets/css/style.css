@@ -309,3 +309,34 @@ img {
 .show {
   display: block !important;
 }
+
+@media (max-width: 700px) {
+  .showcase-content h1 {
+    font-size: 2.5rem;
+    line-height: 1;
+  }
+
+  .showcase-content p {
+    font-size: 1rem;
+  }
+
+  #tab-1-content .tab-1-content-inner {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  #tab-2-content .tab-2-content-top {
+    display: block;
+    text-align: center;
+  }
+
+  #tab-2-content .tab-2-content-bottom {
+    grid-template-columns: 1fr;
+  }
+
+  .btn-xl {
+    font-size: 1rem;
+    padding: 1.2rem 1.6rem;
+    text-transform: uppercase;
+  }
+}
